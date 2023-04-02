@@ -182,7 +182,7 @@ p {
 .nav-bottom {
   background-color: rgb(236, 236, 236);
   position: absolute;
-  transform: translateY(-174px) translateX(-1px);
+  transform: translateY(-185px) translateX(-1px);
   z-index: 0;
   height: 65px;
   width: 360px;
@@ -211,7 +211,8 @@ p {
   border-top: 1px solid grey;
 }
 .proceed-button .btn-warning{
-  width: 90%;
+  padding: 8px 70px;
+  width: 100%;
 }
 
 .exit span{
@@ -267,4 +268,9 @@ p {
 }
 .edit-button .btn-light{
   border-color: #000000;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
 }
