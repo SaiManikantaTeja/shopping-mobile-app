@@ -73,13 +73,6 @@ p {
   /* background-color: azure; */
 }
 
-/* Progress  */
-
-.progress{
-    border-radius: 0;
-    
-}
-
 /* Subtotal */
 .price {
   /* background-color: #017FC7; */
@@ -203,11 +196,14 @@ p {
   transform: translateY(-11px);
 }
 
-/* Shipping information */
+/* ---------- End of index page -------------- */
+
+/* ---------- Shipping information page -------------- */
+
 .proceed-button{
   background-color: rgb(255, 255, 255);
   position: absolute;
-  transform: translateY(529px);
+  transform: translateY(102px);
   width: 360px;
   display: flex;
   justify-content: center;
@@ -215,5 +211,60 @@ p {
   border-top: 1px solid grey;
 }
 .proceed-button .btn-warning{
+  width: 90%;
+}
+
+.exit span{
+  color: grey;
+}
+
+/* Progress  */
+
+.progress-1{
+  background-color: #F0F6FF;
+  color: #017fc7;
+  border-radius: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.line{
+  /* background-color: #017fc7; */
+  margin: 0;
+  padding: 0;
+  width: 12%;
+  height: 25px;
+}
+.progress-1 span{
+  font-size: small;
+}
+.progress-1 .col-3{
+  text-align: center;  
+}
+
+.new-address{
+  padding: 20px;
+}
+.new-address .btn-dark{
   width: 100%;
+  border-radius: 24px;
+}
+
+.prev-address{
+  background-color: #f4f4f4;
+  margin: 0px 2px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.edit-button{
+  display: flex;
+  justify-content: space-around;
+}
+.edit-button .btn{
+  border-radius: 24px;
+  padding: 12px 20px;
+}
+.edit-button .btn-light{
+  border-color: #000000;
 }
