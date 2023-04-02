@@ -202,3 +202,18 @@ p {
 .active {
   transform: translateY(-11px);
 }
+
+/* Shipping information */
+.proceed-button{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  transform: translateY(529px);
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  padding: 0.6em;
+  border-top: 1px solid grey;
+}
+.proceed-button .btn-warning{
+  width: 100%;
+}
