@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <img src="images/hamburger-icon.svg" alt="" />
+        <h1 class="logo">Logo</h1>
+        <div class="actions">
+          <img class="search" src="images/search-icon.svg" alt="" />
+          <img src="images/bag-icon.svg" alt="" />
+        </div>
+      </header>
+
+      <!-- Order Summary -->
+      <main>
+        <!-- Address Selection -->
+        <div class="address">
+          <img src="/images/location-icon.svg" alt="" />
+          <span>Select the address</span>
+          <img src="/images/arrow-down.svg" alt="" />
+        </div>
+
+        <!-- Subtotal -->
+        <div class="price">
+          <h3>Subtotal : INR ₹ 21,767.00</h3>
+          <span>incl. of taxes<br />(Also includes all applicable duties)</span>
+          <a href="/order-summary.html"
+            ><button type="button" class="btn btn-dark">
+              Proceed to buy(3 items)
+            </button></a
+          >
+        </div>
+
+        <!-- Item box - 1 -->
+        <div class="row item-box">
+          <!-- product image and quantity -->
+          <div class="col-5 item-image">
+            <img src="/images/product-images/hoodie.png" alt="" />
+            <div class="quantity">
+              <a href="#" class="quantity_minus"><span>-</span></a>
+              <input
+                name="quantity"
+                type="text"
+                class="quantity_input"
+                value="1" />
+              <a href="#" class="quantity_plus"><span>+</span></a>
+            </div>
+          </div>
+          <!-- Description and cost -->
+          <div class="col-7 desc">
+            <span
+              >Jordan Dri-IFT Sport<br />Men’s Air Fleece Full Zip Hoodie</span
+            >
+            <h3>₹ 5,945.00</h3>
+            <div class="dropdown">
+              <button
+                class="btn btn-sm btn-light dropdown-toggle"
+                type="button"
+                data-toggle="dropdown">
+                Size : M<span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><p>S</p></li>
+                <li><p>M</p></li>
+                <li><p>L</p></li>
+              </ul>
+            </div>
+            <span class="stock">In stock</span>
+          </div>
+        </div>
+        <!-- End of item box - 1 -->
+
+        <!-- Item box - 2 -->
+        <div class="row item-box">
+          <!-- product image and quantity -->
+          <div class="col-5 item-image">
+            <img src="/images/product-images/joggers.png" alt="" />
+            <div class="quantity">
+              <a href="#" class="quantity_minus"><span>-</span></a>
+              <input
+                name="quantity"
+                type="text"
+                class="quantity_input"
+                value="1" />
+              <a href="#" class="quantity_plus"><span>+</span></a>
+            </div>
+          </div>
+          <!-- Description and cost -->
+          <div class="col-7 desc">
+            <span>Jordan Dri-IFT Sport<br />Men’s Air Fleece Jog..</span>
+            <h3>₹ 4,945.00</h3>
+            <div class="dropdown">
+              <button
+                class="btn btn-sm btn-light dropdown-toggle"
+                type="button"
+                data-toggle="dropdown">
+                Size : M<span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><p>S</p></li>
+                <li><p>M</p></li>
+                <li><p>L</p></li>
+              </ul>
+            </div>
+            <span class="stock">In stock</span>
+          </div>
+        </div>
+        <!-- End of item box - 2 -->
+
+        <!-- Item box - 3 -->
+        <div class="row item-box">
+          <!-- product image and quantity -->
+          <div class="col-5 item-image">
+            <img src="/images/product-images/shoes.png" alt="" />
+            <div class="quantity">
+              <a href="#" class="quantity_minus"><span>-</span></a>
+              <input
+                name="quantity"
+                type="text"
+                class="quantity_input"
+                value="1" />
+              <a href="#" class="quantity_plus"><span>+</span></a>
+            </div>
+          </div>
+          <!-- Description and cost -->
+          <div class="col-7 desc">
+            <span>Air Jordan 1 Hi FlyEase<br />Men’s Shoes</span>
+            <h3>₹ 10,877.00</h3>
+            <div class="dropdown">
+              <button
+                class="btn btn-sm btn-light dropdown-toggle"
+                type="button"
+                data-toggle="dropdown">
+                Size : 9<span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><p>8</p></li>
+                <li><p>7</p></li>
+                <li><p>6</p></li>
+              </ul>
+            </div>
+            <span class="stock">In stock</span>
+          </div>
+        </div>
+        <!-- End of item box - 3 -->
+
+        <div class="nav-bottom">
+          <a href=""><img src="images/home-icon.svg" alt="" /></a>
+          <a href=""><img src="images/wishlist-icon.svg" alt="" /></a>
+          <a class="active" href=""
+            ><img src="images/selected-bag-icon.svg" alt=""
+          /></a>
+          <a href=""><img src="images/user-icon.svg" alt="" /></a>
+        </div>
+
+      </main>
+    </section>
+  </body>
+  <script src="main.js"></script>
+</html>
