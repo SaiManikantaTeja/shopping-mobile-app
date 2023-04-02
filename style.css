@@ -203,7 +203,7 @@ p {
 .proceed-button{
   background-color: rgb(255, 255, 255);
   position: absolute;
-  transform: translateY(102px);
+  /* transform: translateY(px); */
   width: 360px;
   display: flex;
   justify-content: center;
@@ -248,7 +248,8 @@ p {
 }
 .new-address .btn-dark{
   width: 100%;
-  border-radius: 24px;
+  border-radius: 25px;
+  padding: 0.5em;
 }
 
 .prev-address{
@@ -259,12 +260,13 @@ p {
 }
 
 .edit-button{
+  padding-top: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .edit-button .btn{
-  border-radius: 24px;
-  padding: 12px 20px;
+  border-radius: 25px;
+  padding: 10px 21px;
 }
 .edit-button .btn-light{
   border-color: #000000;
@@ -273,4 +275,16 @@ p {
 .box{
   display: flex;
   justify-content: space-between;
+}
+
+.details{
+  /* background-color: grey; */
+  padding: 8px 0px;
+  font-size: small;
+}
+.details .estimate{
+  color: red;
+}
+.details em{
+  color: green;
 }
