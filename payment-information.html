@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Payment Information - Shopping Mobile App</title>
+  </head>
+
+  <body>
+    <section>
+      <header>
+        <a href="shipping-information.html"><img src="images/left-arrow.svg" alt="" /></a>
+        <a class="exit" href="index.html"><span>CANCEL</span></a>
+      </header>
+
+      <!-- Shpping Information -->
+      <main>
+        <!-- Progress bar -->
+        <div class="container">
+          <div class="row progress-1">
+            <div class="col-3">
+              <img
+                src="images/progress-circles/progress-ongoing-icon.svg"
+                alt="" />
+              <span>Address</span>
+            </div>
+            <img class="line" src="images/lines/grey-line.svg" alt="" />
+            <div class="col-3">
+              <img
+                src="images/progress-circles/progress-incomplete-icon.svg"
+                alt="" />
+              <span>Payment</span>
+            </div>
+            <img class="line" src="images/lines/grey-line.svg" alt="" />
+            <div class="col-3">
+              <img
+                src="images/progress-circles/progress-incomplete-icon.svg"
+                alt="" /><br />
+              <span>Order</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="heading">
+          <h5>Select a payment method</h5>
+        </div>
+
+        <div class="container">
+            
+                <div class="method">
+                    <p>Net banking</p>
+                    <label>
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="method">
+                    <p>Pay with debit/credit/ATM <br>cards</p>
+                    <img src="images/arrow-down.svg" alt="">
+                </div>
+                <div class="method">
+                    <p>Net banking</p>
+                    <label>
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="method">
+                    <p>EMI</p>
+                    <label>
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="method">
+                    <p>Cash on Delivery/Pay on Delivery</p>
+                    <label>
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            
+        </div>
+
+        <div class="pay-1">
+          <a href="">
+            <button class="btn btn-lg btn-warning" type="button">
+              Continue
+            </button>
+          </a>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>

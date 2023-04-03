@@ -204,7 +204,7 @@ p {
   background-color: rgb(255, 255, 255);
   position: absolute;
   /* transform: translateY(px); */
-  width: 360px;
+  width: 358px;
   display: flex;
   justify-content: center;
   padding: 0.6em;
@@ -213,6 +213,22 @@ p {
 .proceed-button .btn-warning{
   padding: 8px 70px;
   width: 100%;
+}
+
+.pay-1{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  transform: translateY(170px);
+  width: 358px;
+  display: flex;
+  justify-content: center;
+  padding: 0.6em;
+  border-top: 1px solid grey;
+}
+
+.pay-1 .btn-warning{
+  padding: 8px 110px;
+  width: 100%;  
 }
 
 .exit span{
@@ -287,4 +303,22 @@ p {
 }
 .details em{
   color: green;
+}
+
+/* Payment Information Page */
+.heading{
+  padding: 10px 16px;
+}
+
+.method{
+  background-color: #eeecec;
+  display: flex;
+  justify-content: space-between;
+  margin: 4px;
+  padding: 14px 20px 4px 5px;
+  border-radius: 8px;
+  border-color: 10px solid #000;
+}
+.method p{
+  font-size: large;
 }
