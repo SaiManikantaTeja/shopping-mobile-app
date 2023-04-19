@@ -1,2 +1,2 @@
 # shopping-mobile-app
-A Mobile app for shopping products like clothing.
+A Prototype of e-commerce checkout - process for mobile app for clothing products.
